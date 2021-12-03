@@ -1,0 +1,200 @@
+{
+    "main": {
+      "name": "Yakob Kebede",
+      "logoName": "Yakob",
+      "introTitle": "Hello, I'm Yakob Kebede!",
+      "introDescription": "Product designer and developer fascinated by social change. Based in Washington, D.C., designing new reading experiences for The Washington Post.",
+      "introsecondDescription": "Check out my work",
+      "featuredWork": "~Featured Work",
+      "profilePicture": "",
+      "aboutmeDescription": "Designer and developer from Dallas, Texas Currently based in Washington, DC.",
+      "contactmessage": "Would be glad to hear from you, Let's get in touch",
+
+      "occupation": "Co-CEO of Radical Route",
+      "description": "I eat, sleep and breathe Digtal Experience",
+      "subdescription": "React Js & Adobe Creative",
+      "image": "profpicc.png",
+      "bio": "Hi there! I am Yakob! I am a recent grad from Boston College. During these past four years, I have had the chance to explore sections within computer science; and along this journey, I realized that my passion existed in developing Web Applicaition and designing a digital experince. With this passion, I have been able to start my own e-commerce business and also work with VEF a non profit organization in creating a digital experince to better communicate with fans, customers and donors.",  
+      "email": "yakobmk98@gmail.com",
+      "phone": "+1 6178921343",
+      "address": {
+        "street": "241 Heath St",
+        "city": "Boston",
+        "state": "massachusetts",
+        "zip": "02130"
+      },
+      "website": "https://www.papareact.com/course",
+      "resumedownload": "http://papareact.com",
+      "social": [
+        {
+          "name": "youtube",
+          "className": "YouTubeIcon"
+        },
+        {
+          "name": "facebook",
+          "className": "fa fa-facebook"
+        },
+        {
+          "name": "linkedin",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "className": "fa fa-instagram"
+        },
+        {
+          "name": "github",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "My Programming & Design Language Proficiency",
+      "education": [
+        {
+          "school": "Boston College - US",
+          "degree": "Bachelor's Degree, Computer Science",
+          "graduated": "July 2021",
+          "description": "Minored in Management and Leadership"
+        }
+      ],
+      "work": [
+        {
+          "company": "Radical Route",
+          "title": "Co-Founder and CEO",
+          "years": "July 2020 - Present",
+          "description": "Radical Route: we represent those who carve out their own route in life. \n Radical Route is a platform that focuses on educating, empowering, entertaining. Our purpose is to bridge the gap between African & African Diaspora cultures & to give exposure to culture while at the same time focusing on empowerment through sustainable collaboration, cultural exchange and resource sharing. We stand for and respresent those who carve out their own route in life. Curenntly our Radical Routes’ consist of clothing, dancing, art, and Radical Brand Partnerships (RBP). Through these different routes we plan to continue to find creative ways to provide exposure of different cultures to our audience. Whether that is a dance collaboration with people of different cultures, artwork in other languages, clothing partnerships with different black businesses, or teaching people how to garden in their own backyard, all have the same purpose which is to educate, empower, and grow with those taking their own routes. We are creating a platform that would represent a safe place for all different cultures. We hope that giving exposure to different minority cultures will help erase the stereotypes that construct our society, by making something unfamiliar no longer be a negative, but rather creating an environment that brings beauty within diversity. We aim for this exposure to also help other minorities, and people as a whole to see the beauty behind having a similar struggle, which comes with the power of unity. 'the earliest uses of radical are indeed all about literal roots, hinging on the meaning 'of, relating to, or proceeding from a root.' - webster"
+        }
+      ],
+      "skillset": [
+          {
+              "name": "webApp Developer",
+              "level": "80"
+          },
+          {
+            "name": "UX / UI designer",
+            "level": "90"
+        },
+        {
+            "name": "Digital Artist",
+            "level": "95"
+        }
+      ],
+      "skills": [
+        {
+          "name": "ReactJs",
+          "level": "65"
+        },
+        {
+          "name": "JavaScript",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "level": "50"
+        },
+        {
+          "name": "Web Developement",
+          "level": "80"
+        }
+      ],
+
+      "uxskills": [
+        {
+          "name": "Adobe illustrator",
+          "level": "50"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "level": "80"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "I MusiKa",
+          "category": ["frontEnd"],
+          "image": "radicalroutepic.png",
+          "description": "This is a web app made using Shopify's platform and it hosts a fully funcitional e-commerce. Major focus with this project is learning different shopify plugins to best create the best User Experience(UX).",
+          "url": "https://radicalroute.com"
+        },
+        {
+          "title": "Netflix Clone",
+          "category": "webdev",
+          "image": "netflixwebversion.png",
+          "description": "For this web app, I used react to develop the front end and used firebase to host the site. Major functionality for this website are uses of Youtube trailer feature for the movies data gotten using an API key from the TMDB database.",
+          "url": "https://netflix-clone-24237.web.app/"
+        },
+        {
+          "title": "Hulu Clone",
+          "category": "webdev",
+          "image": "huluclonepic.png",
+          "description": "This web app I used React to develop the front end, firebase to host the web app. And, to get the data I used an api key from tmdb.",
+          "url": "https://hulu-clone-20397.web.app/"
+        },
+        {
+          "title": "Amazon Clone",
+          "category": "webdev",
+          "image": "amazonclone.png",
+          "description": "Making of amazon clone with full e-commerce functionality with client side and server side programming using React.Js, Redux, and integration of stripe for payment functionality. ",
+          "url": "https://clone-second-ee3bc.web.app/"
+        },
+        {
+          "title": "Time",
+          "category": "graphicdesign",
+          "image": "alwayswebversion2.png",
+          "description": "Reaching to either side of always, Time connects each route through all the ways.",
+          "url": ""
+        },
+        {
+          "title": "Mama",
+          "category": "graphicdesign",
+          "image": "mamayewebversion22.png",
+          "description": "There is no way I can pay you back, but the plan is to show you that I understand.... you are appreciated. ~ Tupac Shakur",
+          "url": ""
+        },
+        {
+          "title": "Insane or In sane",
+          "category": "graphicdesign",
+          "image": "insanewebversion22.png",
+          "description": "Depending on our perspective, our perception may change, and Vice Versa.",
+          "url": ""
+        },
+        {
+          "title": "L'Union Fait La Force",
+          "category": "graphicdesign",
+          "image": "lunionwebversion2.png",
+          "description": "~ with unity comes strength. Originated and inspired by the History of Haiti and the Haitian Code of Arms",
+          "url": ""
+        },
+        {
+          "title": "Eshi > Shi",
+          "category": "graphicdesign",
+          "image": "eshiwebversion22.png",
+          "description": "Origin : an Ethiopian Proverb; conveying that it is in giving that we receive. 'I strated saying Yes to him and yes to her, When I said yes to everyone What I call mine disappeared, shared among thousands.'",
+          "url": ""
+        },
+        {
+          "title": "Identity",
+          "category": "graphicdesign",
+          "image": "weandiwebversion22.png",
+          "description": "Same as humans, different as people we are; with many layers of similarities and differences in between; our identity reaches to the extent of our knowledge we have of our surrounding.",
+          "url": ""
+        }
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+          "user": "Jorge Fouto"
+        },
+        {
+          "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+          "user": "Adam Curtis"
+        }
+      ]
+    }
+  }
+  

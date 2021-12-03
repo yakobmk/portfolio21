@@ -322,8 +322,9 @@ nav {
 .graphicdesignimg {
     width: 90vw;
     max-width: 300px;
-    height: 40vh;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* height: 40vh; */
+    /* box-shadow: 7px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
 
 }
 
@@ -753,7 +754,7 @@ footer {
     }
     
     .graphicdesignproject {
-        margin: 1% 0%;
+        /* margin: 1% 0%; */
         width: 30%;
     }
     
@@ -762,10 +763,15 @@ footer {
     }
     
     .graphicdesignimg {
+        margin: 1% 0%;
         width: 100%;
+        object-fit: contain;
         max-width: 25vw;
-        height: 50vh;
-        max-height: 50vh;
+        /* box-shadow: 1px lightgray; */
+        /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        /* margin: o auto; */
+        /* height: 50vh; */
+        /* max-height: 50vh; */
     }
     
     .graphicdescription {
