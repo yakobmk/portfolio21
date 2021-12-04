@@ -89,6 +89,37 @@
     background-color: lightgray;
 }
 
+
+.bottomnav {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 1;
+    /* margin-top: 4%; */
+    width: 100vw;
+    z-index: 1;
+    /* margin-bottom: 3%; */
+}
+
+.bottomnav ul {
+    /* margin-bottom: 3%; */
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+.bottomnav ul a {
+    padding: 2%;
+    color: white;
+
+
+}
 .aboutsection {
     display: flex;
     flex-direction: column;
@@ -487,9 +518,17 @@ nav {
 }
 
 .skillpercent {
-    height: 20px;
+    height: 30px;
+    width: 100%;
     background-color: lightgray;
 }
+
+.skillpercentage {
+    height: 30px;
+    width: 85%;
+    background-color: darkgreen;
+}
+
 
 
 
@@ -579,7 +618,7 @@ footer {
     padding: 2% 2%;
     margin-left: 2vw;
     margin-top: 4vw;
-    margin-bottom: 1vw;
+    margin-bottom: 15vw;
 } 
 
 .displayonlaptoponly{
@@ -948,9 +987,17 @@ footer {
     }
 
     .skillpercent {
-        height: 20px;
+        height: 30px;
+        width: 100%;
         background-color: lightgray;
     }
+    
+    .skillpercentage {
+        height: 30px;
+        width: 85%;
+        background-color: darkgreen;
+    }
+    
     
     
     
@@ -1004,6 +1051,7 @@ footer {
         width: 100vw;
         padding: 2% 2%;
         margin-top: 0%;
+        margin-bottom: 0vh;
     }
 
     .displaymobileonly{
