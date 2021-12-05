@@ -7,6 +7,20 @@
 
 }
 
+
+.backgroundimg {
+    padding: 2% 0%;
+    margin-top: 4%;
+    /* color: orange; */
+    overflow: hidden;
+    position: fixed;
+    right: -250;
+    object-fit: contain;
+    /* margin-top: 4%; */
+    width: 25vw;
+    z-index: -1;
+    /* margin-left: 15vw; */
+}
 img {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
@@ -82,7 +96,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: darkgreen;
     font-size: 1.15rem;
     font-weight: lighter;
     padding: 0 5%;
@@ -106,8 +120,8 @@ nav {
     display: flex;
     justify-content: center;
     padding: 2% 0%;
-    background-color: black;
-    color: white;
+    background-color: darkgreen;
+    /* color: orange; */
     overflow: hidden;
     position: fixed;
     bottom: 1;
@@ -119,7 +133,7 @@ nav {
 
 .bottomnav ul {
     /* margin-bottom: 3%; */
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
 
 }
@@ -127,7 +141,7 @@ nav {
 
 
 .bottomnav ul a {
-    padding: 2%;
+    padding: 2;
     color: white;
 
 
@@ -673,7 +687,7 @@ footer {
     .intro p {
         font-style: lighter;
         font-size: 1.45rem;
-        width: 80vw;
+        width: 60vw;
         margin-bottom: 2%
     
     }
