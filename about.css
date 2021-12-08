@@ -42,6 +42,11 @@
     margin-bottom: 4%;
 }
 
+.introtext ul {
+    margin-top: 3%;
+    font-size: 1.6em;
+}
+
 .introtext p {
     margin-top: 3%;
 }

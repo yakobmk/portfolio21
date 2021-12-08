@@ -69,15 +69,15 @@
       "skillset": [
           {
               "name": "webApp Developer",
-              "level": "80"
+              "level": "70"
           },
           {
             "name": "UX / UI designer",
-            "level": "90"
+            "level": "65"
         },
         {
             "name": "Digital Artist",
-            "level": "95"
+            "level": "80"
         }
       ],
       "skills": [
