@@ -28,42 +28,57 @@
     <div class="container cursivefont">
         <!-- <img class="backgroundimg" src="./assets/fibonacci.png" alt=""> -->
         <nav class="flexing">
-            <a href="./index.html">Yakob</a>
-            <!-- <i class="fas fa-bars hamburger"></i> -->
-            <ul>
-                <a href="./index.html">Portfolio</a>
-                <a href="./about.html">About</a>
-                <a target="_blank" rel="noopener noreferrer" href="./assets/Kebede_Yakob_Resume2021' (1) 2.pdf">Resume</a>
-                <a href="#contactme">Contact</a>
-
-
+            <a class="logo" href="./index.html"><h3>Y.</h3></a>
+                <!-- <i class="fas fa-bars hamburger"></i> -->
+                <!-- <div class="tobeshown menulist">
+                    <p>about</p>
+                    <p>Resume</p>
+                    <p>Contact</p>
+                </div> -->
+                
+            <ul class="displaymobileonly"> 
+                <!-- <a class="hovernav displayonlaptoponly" href="#portfolio">Portfolio</a> -->
+                <a class="hovernav" href="./about.html">About</a>
+                <a class="hovernav" target="_blank" rel="noopener noreferrer" href="./assets/22'resume.pdf">Resume</a>
+                <!-- <a class="hovernav displayonlaptoponly" href="#contactme">Contact</a> -->
+            </ul>
+            <ul class="displayonlaptoponly">
+                <a class="hovernav displayonlaptoponly" href="./index.html">Portfolio</a>
+                <a class="hovernav" href="./about.html">About</a>
+                <a class="hovernav" target="_blank" rel="noopener noreferrer" href="./assets/22'resume.pdf">Resume</a>
+                <a class="hovernav displayonlaptoponly" href="#contactme">Contact</a>
             </ul>
         </nav>
     
         <section class="intro">
+            
             <!-- <iframe class="introimage" width="1440" height="300" src="https://www.youtube.com/embed/IGNYp3CflLg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            <img class="introimage" src="https://www.jacadatravel.com/wp-content/uploads/fly-images/337553/danakil-depression-letterbox-1600x500-cc.jpg" alt="">
+            <!-- <img class="introimage" src="https://www.jacadatravel.com/wp-content/uploads/fly-images/337553/danakil-depression-letterbox-1600x500-cc.jpg" alt=""> -->
+            <div>
+                <video loop muted autoplay muted controls="hidden">
+                    <source src="./assets/ethclip.mp4" type="video/mp4">
+                    </video>
+            </div>
+            <!-- <ul class="lightfontlink">
+                <a class="hovernav" href="#about">About</a>
+                <a class="hovernav" href="#skill">Skills</a>
+                <a class="hovernav" href="#contactme">Education</a>
+            </ul> -->
 
-            <p class="headertext"> Dalol, Afar ^ </p>
-
-            <ul>
-                <a href="#about">About</a>
-                <a target="_blank" rel="noopener noreferrer" href="#skill">Skills</a>
-                <a href="#contactme">Education</a>
-
-
-            </ul>
         </section>
 
         <section class="aboutmain">
+            <div class="orgindescription">
+                <p class="bigfont">Originally from Addis Ababa, Ethiopia. Currently in Maryland.</p>
+            </div>
             <div class="aboutsection">
                 <img class="profileimg" src="./assets/dance.PNG" alt="">
-                <div id="about" class="introtext hidden">
+                <div id="about" class="introtext  mainpfontsmaller">
                     <p >Heyo, I'm Yakob - a designer and developer, hoping to further curate experience and expression in the world of design space.
                     </p>
     
                     <p>
-                        I was born and raised in Addis Ababa, Ethiopia, oh and by the way I recommend visiting if you haven't been; then after becoming 18 I moved to the US. Because of this, I was able to experience a unique perspective of the world - standing somewhere in the middle of the two ends of the globe led me to view one with the lens of the other and vice versa. 
+                        I was born and raised in Addis Ababa, Ethiopia (oh and by the way I recommend visiting if you haven't been), then after becoming 18 I moved to the US. Because of this, I was able to experience a unique perspective of the world - standing somewhere in the middle of the two ends of the globe led me to view one with the lens of the other and vice versa. 
                     </p>
     
                     <p>
@@ -102,112 +117,113 @@
                 <h1>Skills</h1>
                 <div class="skilltypes">
                     <div class="skillsection">
-                        <h3>Web App Development</h3>
+                        <h3 class="descriptionfont">Web App Development</h3>
                         <ul>
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 85%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>HTML</p>
+                                </div>
                             </div>
-                            <p>HTML</p>
-
-                            
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 80%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>CSS</p>
+                                </div>
                             </div>
-                            <p>CSS</p>
-
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 75%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Javascript</p>
+                                </div>
                             </div>
-                            <p>Javascript</p>
-
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 70%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>React</p>
+                                </div>
                             </div>
-                            <p>React</p>
-
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 70%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Git</p>
+                                </div>
                             </div>
-                            <p>Git</p>
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 85%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Command Line</p>
+                                </div>
                             </div>
-                            <p>Command Line</p>
                         </ul>
                     </div>
                     <div class="skillsection">
-                        <h3>Product Designer</h3>
+                        <h3 class="descriptionfont">Product Designer</h3>
                         <ul>
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 80%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>UI / UX designer</p>
+                                </div>
                             </div>
-                            <p>UX / UI designer</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 82%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>User Research</p>
+                                </div>
                             </div>
-                            <p>User Research</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 77%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Rapid Prototyping</p>
+                                </div>
                             </div>
-                            <p>Rapid Prototyping</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 82%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Storyboarding</p>
+                                </div>
                             </div>
-                            <p>Storyboarding</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Wireframing</p>
+                                </div>
                             </div>
-                            <p>Wireframing</p>
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 85%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Design Sprints</p>
+                                </div>
                             </div>
-                            <p>Design Sprints</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 80%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Usability Testing</p>
+                                </div>
                             </div>
-                            <p> Usability Testing</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 89%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Figma</p>
+                                </div>
                             </div>
-                            <p>Figma</p>
                         </ul>
                     </div>
                     <div class="skillsection">
-                        <h3>Digital Art</h3>
+                        <h3 class="descriptionfont">Digital Art</h3>
                         <ul>
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 90%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Logo Branding</p>
+                                </div>
                             </div>
-                            <p>Logo & branding</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 87%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>2d & 3d Illustrations</p>
+                                </div>
                             </div>
-                            <p>2d and 3d Illustrations</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 72%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Animation</p>
+                                </div>
                             </div>
-                            <p>Animations</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 85%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Adobe Illustrator</p>
+                                </div>
                             </div>
-                            <p>Adobe Illustrator</p>
-
-                            <div class="skillpercent">
-                                <div class="skillpercentage" style="width: 70%;"> </div>
+                            <div class="projecttype">
+                                <div>
+                                    <p>Adobe Photoshop</p>
+                                </div>
                             </div>
-                            <p>Adobe Photoshop</p>
                         </ul>
                     </div>
                 </div>                
@@ -215,10 +231,10 @@
 
             <div class="education">
                 <div>
-                    <h2>Education</h2>
-                    <h3>Boston College</h3>
-                    <p>Bachelor of Arts in Computer Science, Focus in Management and Leadership.</p>
-                    <p>August 2017 - May 2021</p>
+                    <h2 class="mainpfont"><b>Education</b></h2>
+                    <h3 class="mainpfontsmaller"><b>Boston College</b></h3>
+                    <p class="mainpfontsmaller"> Bachelor of Arts in <b>Computer Science</b>, Focus in <b>Management and Leadership</b>.</p>
+                    <p class="mainpfontsmaller">August 2017 - May 2021</p>
                 </div>
 
             </div>
@@ -233,32 +249,37 @@
     
     
         
-        <section class="aboutinfo hidden">
-            
-            <div class="additional" id="contactme">
-                <div class="additionalinfo">
-                    <h1>
-                        dxautry@gmail.com
-                    </h1>
+        <div class="additional" id="contactme">
+            <div class="additionalinfo">
+                <h1>
+                    yakobmk98@gmail.com
+                </h1>
+                <p class="lightfont">
+                    Always down to collaborate, let's get in touch.
+                </p>
+                <div class="moreinfo">
                     <p>
-                        Always down to collaborate when I have the time. I'm hoping to further my career by disrupting the social product space. Let's get in touch
+                        <a class="bottomfeatured" href="./about.html">More About Me</a>
                     </p>
-                    <div class="moreinfo">
-                        <p>About Me</p>
-                        <p>Resume</p>
-                    </div>
-                </div>
-                <div class="contact">
-                    
-                    <ul>
-                        <a href="https://www.instagram.com/yakobmk98/" target="_blank"> <i class="fab fa-instagram"></i> </a>
-                        <a href="https://www.linkedin.com/in/yakobkebede/" target="_blank" > <i class="fab fa-linkedin"></i> </a>
-                        <a href="mailto:yakobmk98@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> </a>
-                    </ul>
+                    <p>
+                        <a class="bottomfeatured" target="_blank" rel="noopener noreferrer" href="./assets/22'resume.pdf">Resume</a>
+                    </p>
                 </div>
             </div>
+            <div class="contact">
+                
+                <ul>
+                    <a href="https://www.instagram.com/yakobmk98/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/in/yakobkebede/" target="_blank" > <i class="fab fa-linkedin"></i> </a>
+                    <a href="mailto:yakobmk98@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> </a>
 
-        </section>
+                </ul>
+                <div>
+                    
+                    <!-- <p>Contact</p>  -->
+                </div>
+            </div>
+        </div>
 
         <section class="newpageabout">
 
@@ -270,14 +291,14 @@
             <p>Copyright <i class="far fa-copyright"></i> 2020 Yakob Kebede All rights reserved. </p>
         </footer>
 
-        <div class="bottomnav displaymobileonly ">
+        <!-- <div class="bottomnav displaymobileonly ">
             <ul>
                 <a href="./index.html">Home</a>
                 <a href="./about.html">About</a>
-                <a target="_blank" rel="noopener noreferrer" href="./assets/Kebede_Yakob_Resume2021' (1) 2.pdf">Resume</a>
+                <a target="_blank" rel="noopener noreferrer" href="./assets/22'resume.pdf">Resume</a>
                 <a href="#contactme">Contact</a>
             </ul>
-        </div>
+        </div> -->
     </div>
     
     
