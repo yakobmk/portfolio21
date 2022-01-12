@@ -15,6 +15,15 @@ video {
 }
 
 
+iframe {
+    /* width: 100vw; */
+    margin-top: -170px;
+    object-fit: contain;
+    pointer-events: none;
+    margin-bottom: 0;
+    width: 100vw;
+}
+
 .education div h2 {
     text-align: center;
     margin-bottom: 2%;
