@@ -5,6 +5,45 @@
     scroll-behavior: smooth;
 }
 
+.aboutsecton h1, .aboutsection p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+.changed {
+    margin-left: 5% !important;
+    padding: 0 !important;
+    margin-bottom: 2%;
+    max-width: 50%;
+}
+
+.imagesetting {
+    height: 85vh;
+    /* width: 60%; */
+    object-fit: contain;
+    max-height: 100vh;
+    padding: 1%;
+    /* margin-top: 4%; */
+    /* margin: 0 auto; */
+    /* margin-left: 15vw; */
+}
+
+
+.decentfont {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    margin-top: 2%;
+    padding: 0% 2%;
+    margin-left: 15%;
+}
+
+
 .flexrow{
     display: flex;
 }
@@ -17,11 +56,12 @@
 .introtextimage{
     display: flex;
     padding: 4%;
+    /* background-color: #d0e6f6; */
     background-color: #2d3436;
     background-image: linear-gradient(180deg, #d0e6f6 0%, white 74%);
     /* background-color: rgb(192, 192, 5); */
     align-items: center;
-    height: 73vh;
+    height: 75vh;
 }
 
 .introtextimg {
@@ -35,6 +75,11 @@
     font-weight: 900;
     font-size: 50px;
     font-family: 'Playfair Display', serif;
+
+}
+
+.centering{
+    text-align: center;
 }
 
 .introtextimage p {
@@ -106,12 +151,12 @@
     padding: .5%;
     /* box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     /* background-color: #d1d0d0; */
-    border-bottom: 3px black solid; 
+    /* border-bottom: 3px black solid;  */
     margin-top: 3%;
 }
 
 .buttonid:hover {
-    border-bottom: 10px black solid; 
+    /* border-bottom: 10px black solid;  */
     transition: .1s ease-in;
     /* transform: 2s ease; */
 
@@ -185,6 +230,7 @@ nav {
     z-index: 1;
     background-color: #d0e6f6;
 
+
 }
 
 
@@ -210,6 +256,9 @@ nav ul a {
     font-weight: 300;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    /* text-transform: lowercase; */
+    line-height: 1.5;
+
 }
 .lightfontlinksmall {
     font-weight: 300;
@@ -943,16 +992,20 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: start;
-        width: 80%;
+        width: 95%;
     }
+
+    
 
     .aboutsection div{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 1%;
-        box-shadow: 0 2px 1px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        width: 100%;
+        box-shadow: 0 2px 1px 0 rgb(0 0 0 / 10%), 0 3px 3px 0 rgb(0 0 0 / 10%);
+        background-color: rgb(245, 245, 245);
 
         /* border-bottom: 1px solid black; */
         /* background-color: rgb(243, 241, 241); */
@@ -969,16 +1022,19 @@ footer {
     }
 
     .aboutsection p {
-        margin-bottom: 3%;
-        max-width: 20vw;
-        padding: 2%;
+        /* margin-bottom: 3%; */
+        /* max-width: 99%; */
+        padding: 1% 2%;
+        text-align: left;
     }
     
 
     .profileimg{
-        max-width: 45vw;
+        width: 95%;
+        /* width: 100%; */
+        object-fit: contain;
         /* border-radius: 50%; */
-        margin: 3%;
+        /* margin: 3%; */
     }
 
     .skillsection {
@@ -1001,11 +1057,11 @@ footer {
     }
 
     .introimage {
-        /* height: 40vh; */
+        height: 62vh;
         width: 60%;
         object-fit: contain;
         max-height: 100vh;
-        margin-top: 4%;
+        margin-top: 5%;
         /* margin: 0 auto; */
         /* margin-left: 15vw; */
     }
@@ -1436,6 +1492,29 @@ footer {
 
 @media only screen and (max-width: 1171px) {
 
+    .changed {
+        max-width: 90vw;
+        margin: 0;
+        margin-left: 0 !important;
+    }
+
+    .imagesetting {
+        width: 100%;
+        height: 100%;
+    }
+
+    .decentfont {
+        margin: 0;
+        /* margin-left: -17%; */
+        text-align: center;
+        padding: 1% 2% !important;
+    }
+
+    .aboutsecton h1, .aboutsection p {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
     .introtextimage {
         display: flex;
         flex-direction: column;
@@ -1443,7 +1522,7 @@ footer {
         background-color: #d0e6f6;
         /* background-color: rgb(192, 192, 5); */
         align-items: center;
-        height: 65vh;
+        height: 75vh;
 
     }
 
@@ -1849,7 +1928,7 @@ footer {
         /* height: 40vh; */
         width: 100%;
         margin: 0 auto;
-        margin-top: 3%;
+        margin-top: 5%;
         margin-bottom: 3%;
         /* margin-left: 15vw; */
     }

@@ -7,6 +7,11 @@
 
 }
 
+
+.projectsection h2 {
+    margin-right: 4%;
+    margin-bottom: .5%;
+}
 .featuredintro {
     display:flex;
     margin-left: 11vw;
@@ -1020,8 +1025,9 @@ footer {
     
 
     .projectlist {
-        width: 80%;
+        width: 90%;
     }
+    
     
     .projectdisplay {
         display: flex;
@@ -1029,8 +1035,31 @@ footer {
         justify-content: center;
         float: right;
         align-items: center;
-        margin-bottom: 2%;
-        margin-top: 3%;
+        margin: 2%;
+        /* border: .1px solid lightgray; */
+        /* background-color: #2d3436;
+        background-image: linear-gradient(315deg, #707070 0%, #ffffff 74%); */
+        
+    }
+
+    .golden {
+        background-color: #2d3436;
+        background-image: linear-gradient(315deg, #aa9761 0%, #ffffff 74%);
+    }
+
+    .lightblue {
+        background-color: #2d3436;
+        background-image: linear-gradient(315deg, #00d9ff 0%, #ffffff 74%);
+    }
+
+    .redding {
+        background-color: #2d3436;
+        background-image: linear-gradient(315deg, #ff0000 0%, #ffffff 74%);
+    }
+
+    .yellowish {
+        background-color: #2d3436;
+        background-image: linear-gradient(315deg, #fffb00 0%, #ffffff 74%);
     }
 
     .projectdetails {
@@ -1054,6 +1083,7 @@ footer {
         height: auto;
         object-fit: contain;
         margin-left: 3vw;
+        margin-right: 3vw;
     }
     
     .projectdescription {
@@ -1718,7 +1748,7 @@ footer {
     
     .projectsection h1 {
         margin-bottom: 1%;
-        width: 5vw;
+        width: 100%;
         font-size: 28px;
         font-weight: 900;
     }
@@ -1743,7 +1773,7 @@ footer {
     .title {
         margin-left: 1%;
         display: flex;
-        /* align-items: center; */
+        align-items: center;
     }
     
     .profimage{
