@@ -7,6 +7,91 @@
 
 }
 
+footer i {
+    font-size: 1rem;
+    padding: 0;
+}
+
+.checking {
+    opacity: 0;
+    position: absolute;
+    color: white;
+    /* margin-left: 2vw; */
+    bottom: 0;
+    left: 0;
+    width: 37vw;
+    height: 37vh;
+    transition: all .2s ease-in-out;
+}
+
+.checking p {
+    text-align: center;
+    align-items: center;
+    margin-top: 38%;
+}
+
+.checking:hover {
+    opacity: .8;
+    background-image: linear-gradient(to bottom, gray, black);
+}
+
+.graphics {
+    opacity: 0;
+    position: absolute;
+    color: white;
+    /* margin-left: 2vw; */
+    bottom: 0;
+    left: 0;
+    width: 26vw;
+    height: 36vh;
+    transition: all .2s ease-in-out;
+}
+
+.graphics p {
+    text-align: center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+.graphics:hover {
+    opacity: .8;
+    background-image: linear-gradient(to bottom, gray, black);
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    /* width: 100%; */
+}
+
+i {
+    font-size: 2.0rem;
+    padding: 0 5%
+}
+
+i:hover {
+    color: rgb(226, 76, 6);
+}
+
+.social ul {
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 8vw;
+    margin-left: 4vw
+}
+
+.social ul a i{
+    /* padding: 0 2%; */
+    /* font-size: 1.2rem; */
+
+}
+
+
 
 .projectsection h2 {
     margin-right: 4%;
@@ -15,7 +100,7 @@
 .featuredintro {
     display:flex;
     margin-left: 11vw;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     align-items: center;
 
 }
@@ -30,7 +115,7 @@
     width: 30vw;
     max-height: 80vh;
     object-fit: contain;
-    margin-top: 35%;
+    margin-top: 22%;
 
 }
 
@@ -504,7 +589,7 @@ nav {
 }
 
 .graphicprojectsection p{
-    margin-bottom: 2vh;
+    margin-bottom: 6vh;
 }
 
 .graphicdesignimg {
@@ -838,14 +923,14 @@ footer {
     
     
     .intro {
-        height: 85vh;
+        height: 78vh;
         /* width: 100%; */
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-left: 0vw;
         justify-content: center;
-        margin-bottom: 7%;
+        /* margin-bottom: 7%; */
     
     
         
@@ -1026,6 +1111,7 @@ footer {
 
     .projectlist {
         width: 90%;
+        margin-top: 2%;
     }
     
     
@@ -1042,7 +1128,7 @@ footer {
         
     }
 
-    .golden {
+    /* .golden {
         background-color: #2d3436;
         background-image: linear-gradient(315deg, #aa9761 0%, #ffffff 74%);
     }
@@ -1060,7 +1146,7 @@ footer {
     .yellowish {
         background-color: #2d3436;
         background-image: linear-gradient(315deg, #fffb00 0%, #ffffff 74%);
-    }
+    } */
 
     .projectdetails {
         display: flex;
@@ -1078,12 +1164,11 @@ footer {
     }
     
     .projectimage {
-        width: 40vw;
+        width: 37vw;
         max-height: 80%;
-        height: auto;
+        height: 37vh;
         object-fit: contain;
-        margin-left: 3vw;
-        margin-right: 3vw;
+        margin: 0 -.5%;
     }
     
     .projectdescription {
@@ -1147,7 +1232,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         width: 90vw;
 
     
@@ -1155,20 +1240,25 @@ footer {
     
     .graphicdesignproject {
         /* margin: 1% 0%; */
-        width: 30%;
+        width: 29%;
+        margin: 0% !important;
+        padding: 0;
+
     }
     
     .graphicdesignproject h1{
-        margin: 0;
+        margin: 0% !important;
     }
     
     .graphicdesignimg {
-        /* margin: 1% 0%; */
-        padding: 1%;
+        /* margin: .1% .1%; */
+        /* padding: 0.2%; */
         background-color: white;
-        width: 100%;
+        border-bottom: .02px solid black;
+        /* width: 100%; */
         object-fit: contain;
-        max-width: 25vw;
+        height: 36vh;
+        width: 26vw;
         /* box-shadow: 1px lightgray; */
         /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
         /* margin: o auto; */
@@ -1300,6 +1390,33 @@ footer {
         
     
     }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        margin-top: 9%;
+        /* width: 100%; */
+    }
+    
+    i {
+        font-size: 2.0rem;
+        padding: 0 5%
+    }
+    
+    i:hover {
+        color: rgb(226, 76, 6);
+    }
+    
+    .social ul {
+        margin: 1%;
+        display: flex;
+        justify-content: space-between;
+        width: 35vw;
+        margin-left: 4vw
+    }
+    
     
     .featuredintro {
         display:flex;
@@ -1535,7 +1652,7 @@ footer {
     
     .intro {
         width: 100%;
-        height: 79vh;
+        height: 88vh;
         display: flex;
         flex-direction: column;
         align-items: left;
