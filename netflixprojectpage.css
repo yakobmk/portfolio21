@@ -90,7 +90,7 @@
     letter-spacing: .01em;
     line-height: 1.375;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 42px;
     font-family: 'Playfair Display', serif;
 
 }
@@ -444,7 +444,7 @@ nav ul a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 3%; */
+    margin-top: 3%;
 }
 
 
@@ -1016,7 +1016,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: start;
-        width: 95%;
+        width: 85%;
     }
 
     
@@ -1082,7 +1082,7 @@ footer {
 
     .introimage {
         height: 62vh;
-        width: 60%;
+        /* width: 60%; */
         object-fit: contain;
         max-height: 100vh;
         margin-top: 5%;
@@ -1516,6 +1516,13 @@ footer {
 
 @media only screen and (max-width: 1171px) {
 
+    .introtextimage img {
+        width: 100%;
+        margin-top: 10%;
+        padding: 0;
+    }
+    
+
     .changed {
         max-width: 90vw;
         margin: 0;
@@ -1560,7 +1567,7 @@ footer {
         letter-spacing: .01em;
         line-height: 1.375;
         font-weight: 900;
-        font-size: 16px;
+        font-size: 15px;
         font-family: Lato, sans-serif;
         color: lightgray
     }
@@ -2076,6 +2083,8 @@ footer {
         animation-duration: 1s;
         opacity: 1;
     }
+
+
     
     
     
@@ -2085,13 +2094,41 @@ footer {
         margin-bottom: 2%; */
         /* opacity: 0; */
     }
+
+    .introtextimage {
+        height: 100%;
+    }
+
+    .decentfont {
+        padding: 0 !important;
+        text-align: left;
+    }
+
+    .sectiondisplay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introimage {
+        padding: 5% 10%;
+    }
+
+    .sectiondisplay section {
+        margin: 5% 0%;
+    }
     
     .intro p {
         font-style: lighter;
         font-size: 1.45rem;
-        width: 80%;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
+        text-align: left;
+        margin: 0;
+        width: 100%;
     
+    }
+
+    .introtextimage div h1 {
+        margin: 0 auto;
     }
     
     .intro ul {
