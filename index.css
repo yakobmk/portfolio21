@@ -12,27 +12,33 @@ footer i {
     padding: 0;
 }
 
+.text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
 .checking {
     opacity: 0;
-    position: absolute;
-    color: white;
+    /* color: white; */
     /* margin-left: 2vw; */
-    bottom: 0;
-    left: 0;
-    width: 37vw;
-    height: 37vh;
+   
+    /* width: 100%;
+    height: 100%; */
     transition: all .2s ease-in-out;
 }
 
 .checking p {
     text-align: center;
-    align-items: center;
-    margin-top: 38%;
+    /* align-items: center; */
+    /* margin-top: 52%; */
 }
 
-.checking:hover {
+.checking:hover, .checking:active {
     opacity: .8;
-    background-image: linear-gradient(to bottom, gray, black);
+    /* background-image: linear-gradient(to bottom, gray, black); */
 }
 
 .graphics {
@@ -53,7 +59,7 @@ footer i {
     margin-top: 50%;
 }
 
-.graphics:hover {
+.graphics:hover, .graphics:active {
     opacity: .8;
     background-image: linear-gradient(to bottom, gray, black);
 }
@@ -73,7 +79,7 @@ i {
     padding: 0 5%
 }
 
-i:hover {
+i:hover, i:active {
     color: rgb(226, 76, 6);
 }
 
@@ -124,7 +130,7 @@ i:hover {
     color: rgb(97, 96, 96);
 }
 
-.hovernav:hover {
+.hovernav:hover, .hovernav:active {
     color: black;
     font-style: italic;
 }
@@ -405,7 +411,7 @@ nav {
     letter-spacing: .01em;
 }
 
-.intro div a:hover {
+.intro div a:hover, .intro div a:active {
     border-bottom: 10px black solid; 
     transition: .1s ease-in;
 
@@ -501,7 +507,7 @@ nav {
     transition: all .2s ease-in-out;
 }
 
-.projectimage:hover {
+.projectimage:hover, .projectimage:active {
     transform: scale(1.1);
 }
 
@@ -602,8 +608,8 @@ nav {
 
 }
 
-.graphicdesignimg:hover {
-    transform: scale(1.1);
+.graphicdesignimg:hover, .graphicdesignimg:active {
+    transform: scale(.97);
 }
 
 .graphicdescription {
@@ -740,7 +746,7 @@ nav {
     
 }
 
-.visitsite:hover {
+.visitsite:hover, .visitsite:active {
     border-bottom: 10px black solid; 
     transition: .1s ease-in;
 }
@@ -757,7 +763,7 @@ nav {
     
 }
 
-.moreinfo p:hover {
+.moreinfo p:hover, .moreinfo p:active {
     border-bottom: 10px black solid; 
     transition: .1s ease-in;
     /* transform: 2s ease; */
@@ -1241,7 +1247,7 @@ footer {
     .graphicdesignproject {
         /* margin: 1% 0%; */
         width: 29%;
-        margin: 0% !important;
+        margin: .5% !important;
         padding: 0;
 
     }
@@ -1254,7 +1260,7 @@ footer {
         /* margin: .1% .1%; */
         /* padding: 0.2%; */
         background-color: white;
-        border-bottom: .02px solid black;
+        /* border-bottom: .02px solid black; */
         /* width: 100%; */
         object-fit: contain;
         height: 36vh;
@@ -1382,6 +1388,32 @@ footer {
 
 /* Mobile upto tablets stops before mac's width */
 @media only screen and (max-width: 1171px) {
+
+    .checking {
+        opacity: 0;
+        color: black !important;
+        /* position: absolute;
+        color: white;
+        bottom: 265px;
+        left: 0;
+        width: 95vw;
+        height: 100%; */
+        transition: all .2s ease-in-out;
+    }
+    
+    .checking p {
+        text-align: center;
+        align-items: center;
+        margin-top: 38%;
+        color: black;
+    }
+    
+    .checking:hover, .checking:active {
+        opacity: .8;
+
+        /* background-image: linear-gradient(to bottom, gray, black); */
+    }
+    
     * {
         padding: 0;
         margin: 0;
@@ -1405,7 +1437,7 @@ footer {
         padding: 0 5%
     }
     
-    i:hover {
+    i:hover, i:active {
         color: rgb(226, 76, 6);
     }
     
@@ -1445,7 +1477,7 @@ footer {
         color: rgb(97, 96, 96);
     }
     
-    .hovernav:hover {
+    .hovernav:hover, .hovernav:active {
         color: black;
         font-style: italic;
     }
@@ -1550,7 +1582,7 @@ footer {
     .flexing {
         display: flex;
         align-items: center;
-        padding: 4% 0%;
+        padding: 2% 0%;
 
     }
     
@@ -1766,7 +1798,7 @@ footer {
         letter-spacing: .01em;
     }
     
-    .intro div a:hover {
+    .intro div a:hover, .intro div a:active {
         border-bottom: 10px black solid; 
         transition: .1s ease-in;
     
@@ -1908,7 +1940,7 @@ footer {
         transition: all .2s ease-in-out;
     }
     
-    .projectimage:hover {
+    .projectimage:hover, .projectimage:active{
         transform: scale(1.1);
     }
     
@@ -2023,14 +2055,14 @@ footer {
         width: 95vw;
         max-width: 95vw;
         transition: all .2s ease-in-out;
-        padding: 0 3%;
+        padding: 1%;
         /* height: 40vh; */
         /* box-shadow: 7px rgba(0, 0, 0, 0.2); */
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
     
     }
     
-    .graphicdesignimg:hover {
+    .graphicdesignimg:hover, .graphicdesignimg:active {
         transform: scale(1.1);
     }
     
@@ -2168,7 +2200,7 @@ footer {
         
     }
     
-    .visitsite:hover {
+    .visitsite:hover, .visitsite:active {
         border-bottom: 10px black solid; 
         transition: .1s ease-in;
     }
@@ -2185,7 +2217,7 @@ footer {
         
     }
     
-    .moreinfo p:hover {
+    .moreinfo p:hover, .moreinfo p:active {
         border-bottom: 10px black solid; 
         transition: .1s ease-in;
         /* transform: 2s ease; */
