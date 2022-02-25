@@ -7,6 +7,10 @@
 
 }
 
+.designtitle {
+    border-bottom: solid .5px black;
+}
+
 footer i {
     font-size: 1rem;
     padding: 0;
